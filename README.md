@@ -26,6 +26,9 @@ Simply clone this repository to your local machine
 `make clean` - Remove already built Docker images. Remove all versions from the base directory or specific versions from each directory.
 
 
+`make push` - Push already built Docker images to Docker Hub, (only for WPLib admins). Push all versions from the base directory or specific versions from each directory.
+
+
 ## Runtime from GitHub repo
 When you `cd` into a version directory you can also perform a few more actions.
 
