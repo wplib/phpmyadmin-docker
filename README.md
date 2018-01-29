@@ -10,13 +10,13 @@ It currently provides versions 4.6 4.7
 `4.6` , `4.6` _([4.6/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.6/Dockerfile))_
 
 
-## Setup
+## Setup from GitHub repo
 Simply clone this repository to your local machine
 
 `git clone https://github.com/wplib/phpmyadmin-docker.git`
 
 
-## Building
+## Building from GitHub repo
 `make build` - Build Docker images. Build all versions from the base directory or specific versions from each directory.
 
 
@@ -26,7 +26,7 @@ Simply clone this repository to your local machine
 `make clean` - Remove already built Docker images. Remove all versions from the base directory or specific versions from each directory.
 
 
-## Runtime
+## Runtime from GitHub repo
 When you `cd` into a version directory you can also perform a few more actions.
 
 `make start` - Spin up a Docker container with the correct runtime configs.
