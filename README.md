@@ -15,16 +15,32 @@ Simply clone this repository to your local machine
 
 `git clone https://github.com/wplib/phpmyadmin-docker.git`
 
-and run either...
+
+## Building
+`make build` - Build Docker images. Build all versions from the base directory or specific versions from each directory.
 
 
-### Building all images
-`make build`
+`make list` - List already built Docker images. List all versions from the base directory or specific versions from each directory.
 
 
-### Listing all built images
-`make list`
+`make clean` - Remove already built Docker images. Remove all versions from the base directory or specific versions from each directory.
 
 
-### Cleaning all images
-`make clean`
+## Runtime
+When you `cd` into a version directory you can also perform a few more actions.
+
+`make start` - Spin up a Docker container with the correct runtime configs.
+
+
+`make stop` - Stop a Docker container.
+
+
+`make run` - Run a Docker container in the foreground, (all STDOUT and STDERR will go to console). The Container be removed on termination.
+
+
+`make shell` - Run a shell, (/bin/bash), within a Docker container.
+
+
+`make rm` - Remove the Docker container.
+
+
