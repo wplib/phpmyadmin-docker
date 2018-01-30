@@ -5,18 +5,53 @@ It currently provides versions 4.6 4.7
 
 ## Supported tags and respective Dockerfiles
 
-`4.7` , `4.7`, `latest` _([4.7/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.7/Dockerfile))_
+`4.7`, `latest` _([4.7/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.7/Dockerfile))_
 
-`4.6` , `4.6` _([4.6/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.6/Dockerfile))_
+`4.6` _([4.6/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.6/Dockerfile))_
 
 
-## Setup from GitHub repo
+## Using this container.
+If you want to use this container as part of WPLib, then use the Docker Hub method.
+Or you can use the GitHub method to build and run the container.
+
+
+## Using it from Docker Hub
+
+### Setup from Docker Hub
+A simple `docker pull wplib/phpmyadmin` will pull down the latest version.
+
+
+### Runtime from Docker Hub
+start - Spin up a Docker container with the correct runtime configs.
+
+`docker run -d --name wplib_phpmyadmin_4.7 --restart unless-stopped --network wplibbox -p 8081:80  wplib/phpmyadmin:4.7`
+
+stop - Stop a Docker container.
+
+`docker stop wplib_phpmyadmin_4.7`
+
+run - Run a Docker container in the foreground, (all STDOUT and STDERR will go to console). The Container be removed on termination.
+
+`docker run --rm --name wplib_phpmyadmin_4.7 --network wplibbox -p 8081:80  wplib/phpmyadmin:4.7`
+
+shell - Run a shell, (/bin/bash), within a Docker container.
+
+`docker run --rm --name wplib_phpmyadmin_4.7 -i -t --network wplibbox -p 8081:80  wplib/phpmyadmin:4.7 /bin/bash`
+
+rm - Remove the Docker container.
+
+`docker container rm wplib_phpmyadmin_4.7`
+
+
+## Using it from GitHub repo
+
+### Setup from GitHub repo
 Simply clone this repository to your local machine
 
 `git clone https://github.com/wplib/phpmyadmin-docker.git`
 
 
-## Building from GitHub repo
+### Building from GitHub repo
 `make build` - Build Docker images. Build all versions from the base directory or specific versions from each directory.
 
 
@@ -29,7 +64,7 @@ Simply clone this repository to your local machine
 `make push` - Push already built Docker images to Docker Hub, (only for WPLib admins). Push all versions from the base directory or specific versions from each directory.
 
 
-## Runtime from GitHub repo
+### Runtime from GitHub repo
 When you `cd` into a version directory you can also perform a few more actions.
 
 `make start` - Spin up a Docker container with the correct runtime configs.
