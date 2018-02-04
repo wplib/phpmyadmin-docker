@@ -11,7 +11,7 @@ BASEDIR = $(shell pwd)
 ################################################################################
 # Image related commands.
 
-helpe:
+help:
 	@cat README.md
 
 build:
