@@ -4,8 +4,10 @@
 	"version": "4.7",
 	"majorversion": "",
 	"latest": "1",
+	"network": "--network wplibbox",
 	"ports": "-p 8081:80",
 	"volumes": "",
+	"restart": "--restart unless-stopped",
 	"args": "-e PMA_HOST=172.18.0.1",
 	"env": "PHPMYADMIN_VERSION"
 }
