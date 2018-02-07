@@ -1,3 +1,15 @@
+```
+ __          _______  _      _ _       ____
+ \ \        / /  __ \| |    (_) |     |  _ \
+  \ \  /\  / /| |__) | |     _| |__   | |_) | _____  __
+   \ \/  \/ / |  ___/| |    | | '_ \  |  _ < / _ \ \/ /
+    \  /\  /  | |    | |____| | |_) | | |_) | (_) >  <
+     \/  \/   |_|    |______|_|_.__/  |____/ \___/_/\_\
+```
+
+![WPLib-Box](https://github.com/wplib/wplib.github.io/blob/master/WPLib-Box-100x.png)
+
+
 # PHPMyAdmin Docker Container for WPLib Box
 This is the repository for the [PHPMyAdmin](https://www.phpmyadmin.net/) Docker container implemented for [WPLib-Box](https://github.com/wplib/wplib-box).
 It currently provides versions 4.6 4.7
@@ -16,6 +28,11 @@ Or you can use the GitHub method to build and run the container.
 
 
 ## Using it from Docker Hub
+
+### Links
+(Docker Hub repo)[https://hub.docker.com/r/wplib/phpmyadmin/]
+(Docker Cloud repo)[https://cloud.docker.com/swarm/wplib/repository/docker/wplib/phpmyadmin/]
+
 
 ### Setup from Docker Hub
 A simple `docker pull wplib/phpmyadmin` will pull down the latest version.
