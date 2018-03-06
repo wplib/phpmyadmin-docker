@@ -1,0 +1,15 @@
+{
+	"project": "wplib",
+	"name": "phpmyadmin",
+	"version": "4.8",
+	"majorversion": "",
+	"latest": "",
+	"class": "admin",
+	"network": "--network wplibbox",
+	"ports": "-p 8081:80",
+	"volumes": "",
+	"restart": "--restart no",
+	"args": "-e PMA_HOST=172.42.0.1",
+	"env": "PHPMYADMIN_VERSION"
+}
+
