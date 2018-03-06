@@ -4,6 +4,7 @@
 	"version": "4.6",
 	"majorversion": "",
 	"latest": "",
+	"class": "admin",
 	"network": "--network wplibbox",
 	"ports": "-p 8081:80",
 	"volumes": "",
