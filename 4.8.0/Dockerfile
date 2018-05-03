@@ -1,4 +1,4 @@
-FROM phpmyadmin/phpmyadmin:4.8
+FROM phpmyadmin/phpmyadmin:4.8.0
 MAINTAINER WPLib Team <team@wplib.org>
 
 ENV MYSQL_USER=wordpress
