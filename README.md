@@ -1,3 +1,7 @@
+![PHPMyAdmin 4.8.x](https://img.shields.io/badge/PHPMyAdmin-4.8.x-green.svg)
+![PHPMyAdmin 4.7.x](https://img.shields.io/badge/PHPMyAdmin-4.7.x-green.svg)
+![PHPMyAdmin 4.6.x](https://img.shields.io/badge/PHPMyAdmin-4.6.x-green.svg)
+
 ```
  __          _______  _      _ _       ____
  \ \        / /  __ \| |    (_) |     |  _ \
@@ -17,11 +21,11 @@ It currently provides versions 4.6 4.7 4.8.0
 
 ## Supported tags and respective Dockerfiles
 
-`4.8.0` _([4.8.0/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.8.0/Dockerfile))_
+`4.8.0`, `4.8`, `latest` _([4.8.0/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.8.0/Dockerfile))_
 
-`4.7`, `latest` _([4.7/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.7/Dockerfile))_
+`4.7.0`, `4.7` _([4.7/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.7/Dockerfile))_
 
-`4.6` _([4.6/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.6/Dockerfile))_
+`4.6.0`, `4.6` _([4.6/Dockerfile](https://github.com/wplib/phpmyadmin-docker/blob/master/4.6/Dockerfile))_
 
 
 ## Using this container.
