@@ -16,7 +16,7 @@
 
 # PHPMyAdmin Docker Container for WPLib Box
 This is the repository for the [PHPMyAdmin](https://www.phpmyadmin.net/) Docker container implemented for [WPLib-Box](https://github.com/wplib/wplib-box).
-It currently provides versions 4.6 4.7 4.8.0
+It currently provides versions 4.6.x 4.7.x 4.8.x
 
 
 ## Supported tags and respective Dockerfiles
